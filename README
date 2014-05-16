@@ -1,0 +1,9 @@
+Sudoku Solver in C++
+
+Program in repository contain 7 files: sudokuboard.h, sudokuboard.cpp, sudokusolver.cpp,sudoku_1, sudoku_2, sudoku_3, and Makefile.
+
+How to run:
+— Make the program and then run ./sudokusolver file
+— The file argument should contain a numerical sudoku board with 81 integers, 9 integers per line for 9 lines. Integers in a line should not contain any spaces and an empty location is represented by a zero. (See sudoku_1, sudoku_2, sudoku_3 for examples of input)
+
+The program will print the input board and the solved board, if possible. The algorithm used for solving sudoku is a brute-force method that uses recursive backtracking as a strategy. 
